@@ -1606,7 +1606,7 @@ async function generatePDF() {
   doc.setFont('helvetica','normal');
   doc.setFontSize(7);
   doc.setTextColor(...light);
-  doc.text('NEURIX IT — Soluciones en Seguridad Electrónica & Informática', W/2, H-11, {align:'center'});
+  doc.text('NEURIX IT — Soluciones en Seguridad Electrónica & Informática    -    Tel: 442 487 9738   -  Ing. Miguel Villarreal   -  jmiguelvillarrealv@gmail.com', W/2, H-11, {align:'center'});
   doc.text('Documento generado digitalmente — ' + qNum, W/2, H-6, {align:'center'});
 
   doc.save(`Cotizacion_${qNum}_${cn.replace(/\s/g,'_')}.pdf`);
